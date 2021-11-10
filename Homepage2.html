@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AkCadeMic</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+    <style>
+    body {
+        background-image: url("https://1.bp.blogspot.com/-7U2LWdxKc_w/YOqcsXA7mxI/AAAAAAAAAAM/5IIbQVbPmooWqc8rGrupi1IPUSSwXG0MgCLcBGAsYHQ/w678-h624/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+   div.transbox {
+        background-color: #ffffff;
+        position: fixed;
+        opacity: 0.7;
+        border-radius: 10px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 45px;
+        margin-right: 150px;
+        margin-left: 450px;
+        height: 450px;
+        width: 1000px;
+    }
+    .button {
+        background-color: black;
+        border: 2px;
+        color: white;
+        text-align: center;
+        display: inline-block;
+        font-size: 32px;
+        width: 750px;
+    }
+
+    .footer {
+        background-color:white;
+    }
+        
+    li {
+    list-style-type: none;
+}
+</style>
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a href="index.html"><img src="/images/Logo.png" width="50" height="50" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="Discussion.html">Discussion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="ContactUs.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Hello, Tay Ti Two Mulac II!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="Login.html">Logout</a>
+                    </li>
+                </div>
+        </div>
+        
+    </nav>
+</header>
+   
+    <body>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="background">
+        <div class="transbox text-center">
+            <br />
+            <img src="/images/nice1.gif" height="150" width="150" />
+            <h1 style="font-family:Georgia, 'Times New Roman', Times, serif"><b>Welcome To AkCadeMic</b></h1>
+            <h2 style="font-family:Georgia, 'Times New Roman', Times, serif;color:green;"><b>#NoOneLeftBehind</b></h2>
+            <br />
+            <br />
+            <form action="/Discussion.html" method="get">
+                <input class="button" type="submit" value="PROCEED TO DISCUSSION" />
+            </form>
+        </div>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - AkCadeMic - <a asp-area="" asp-controller="Home" asp-action="Policy">Policy</a>
+        </div>
+    </footer>
+</body>
+</html>
